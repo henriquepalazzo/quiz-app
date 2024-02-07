@@ -13,6 +13,10 @@ body {
 	font-family: "Lato", sans-serif;
 }
 
+p {
+	line-height: 1.4;
+}
+
 img {
 	max-width: 100%;
 	height: auto;
@@ -32,11 +36,14 @@ article.card {
 	border-radius: 10px;
 	padding: 2rem;
 }
+article.card:not(:last-child) {
+	margin-bottom: 2rem;
+}
 article.card h2 {
 	font-size: 2rem;
 }
 article.card button {
-	background-color: #160C28;
+	background-color: #3A206F;
 	color: #E1EFE6;
 	border: none;
 	font-size: 1.3rem;
@@ -48,7 +55,7 @@ article.card button {
 article.card .answer {
 	display: none;
 	font-size: 1rem;
-	margin-bottom: 1rem;
+	margin-bottom: 1.5rem;
 	color: #666;
 }
 article.card ol {
@@ -58,9 +65,10 @@ article.card ol {
 	padding: 1.5rem 0.5rem 0 0;
 	font-size: 0.9rem;
 	border-top: 1px solid #AEB7B3;
+	flex-wrap: wrap;
 }
 article.card ol li {
-	margin: 0 1rem 0 0;
+	margin: 0 0.5rem 0.5rem 0;
 	background-color: #EFCB68;
 	border-radius: 5px;
 	padding: 5px 10px;
