@@ -1,0 +1,45 @@
+main {
+	margin-top: 130px;
+	margin-bottom: 70px;
+}
+article.card {
+	background-color: #E1EFE6;
+	border-radius: 10px;
+	padding: 2rem;
+	position: relative;
+}
+article.card:not(:last-child) {
+	margin-bottom: 2rem;
+}
+article.card .bookmark {
+	position: absolute;
+	top: -6px;
+	right: 20px;
+	background-color: #E1EFE6;
+	border-radius: 5px;
+}
+article.card h2 {
+	font-size: 2rem;
+}
+article.card .answer {
+	display: none;
+	font-size: 1rem;
+	margin-bottom: 1.5rem;
+	color: #666;
+}
+article.card ol {
+	list-style: '#';
+	list-style-position: inside;
+	display: flex;
+	padding: 1.5rem 0.5rem 0 0;
+	font-size: 0.9rem;
+	border-top: 1px solid #AEB7B3;
+	flex-wrap: wrap;
+}
+article.card ol li {
+	margin: 0 0.5rem 0.5rem 0;
+	background-color: #EFCB68;
+	border-radius: 5px;
+	padding: 5px 10px;
+	/* color: #; */
+}

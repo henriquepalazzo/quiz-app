@@ -1,0 +1,24 @@
+header {
+	position: fixed;
+	z-index: 11;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	padding: 1rem 2rem 0.5rem;
+	background-color: #fc0;
+	font-family: "Bebas Neue", sans-serif;
+}
+header h1 {
+	font-weight: 400;
+	font-size: 3rem;
+	line-height: 1;
+	display: flex;
+	align-items: baseline;
+}
+header h1 .first {
+	font-size: 6rem;
+}
+header h1 .last {
+	font-size: 3rem;
+	margin-left: auto;
+}
