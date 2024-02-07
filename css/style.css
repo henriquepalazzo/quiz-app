@@ -1,3 +1,4 @@
+/* BASIC RESET */
 * {
     padding: 0;
 	margin: 0;
@@ -11,4 +12,21 @@ body {
 img {
 	max-width: 100%;
 	height: auto;
+}
+
+/* HEADER */
+header {
+
+}
+
+/* MAIN - CARD */
+main {
+
+}
+article.card {
+
+}
+/* NAV */
+nav {
+
 }
