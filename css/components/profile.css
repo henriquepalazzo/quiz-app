@@ -1,0 +1,13 @@
+main.profile article header {
+    display: flex;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+main.profile article header img {
+    width: 150px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 50%;
+    border: solid 5px #cfd7d3;
+    margin-right: 2rem;
+}
