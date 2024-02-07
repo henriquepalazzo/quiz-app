@@ -8,6 +8,7 @@
 body {
 	font-size: 18px;
 	background-color: #AEB7B3;
+	color: #333;
 	padding: 2rem;
 	font-family: "Lato", sans-serif;
 }
@@ -27,8 +28,45 @@ main {
 
 }
 article.card {
-
+	background-color: #E1EFE6;
+	border-radius: 10px;
+	padding: 2rem;
 }
+article.card h2 {
+	font-size: 2rem;
+}
+article.card button {
+	background-color: #160C28;
+	color: #E1EFE6;
+	border: none;
+	font-size: 1.3rem;
+	margin: 2rem 0;
+	border-radius: 5px;
+	padding: 7px 15px;
+	cursor: pointer;
+}
+article.card .answer {
+	display: none;
+	font-size: 1rem;
+	margin-bottom: 1rem;
+	color: #666;
+}
+article.card ol {
+	list-style: '#';
+	list-style-position: inside;
+	display: flex;
+	padding: 1.5rem 0.5rem 0 0;
+	font-size: 0.9rem;
+	border-top: 1px solid #AEB7B3;
+}
+article.card ol li {
+	margin: 0 1rem 0 0;
+	background-color: #EFCB68;
+	border-radius: 5px;
+	padding: 5px 10px;
+	/* color: #; */
+}
+
 /* NAV */
 nav {
 
