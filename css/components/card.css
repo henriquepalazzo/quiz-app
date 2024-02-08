@@ -1,6 +1,6 @@
 main {
-	margin-top: 130px;
-	margin-bottom: 70px;
+	max-width: 1200px;
+	margin: 130px auto 70px;
 }
 article.card {
 	background-color: #E1EFE6;
@@ -42,4 +42,16 @@ article.card ol li {
 	border-radius: 5px;
 	padding: 5px 10px;
 	/* color: #; */
+}
+@media screen and (min-width: 900px) {
+	main {
+		display: flex;
+		gap: 2rem;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: flex-start;
+	}
+	article.card {
+		width: 350px;
+	}
 }
