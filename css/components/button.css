@@ -8,4 +8,8 @@ article.card button {
 	padding: 7px 15px;
 	cursor: pointer;
 	border: 3px solid #927ac3;
+	transition: all 1s;
+}
+article.card button:hover {
+	background-color: #221045;
 }
