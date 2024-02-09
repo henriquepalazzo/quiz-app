@@ -3,7 +3,7 @@ main {
 	margin: 130px auto 70px;
 }
 article.card {
-	background-color: #E1EFE6;
+	background-color: var(--green-lighter);
 	border-radius: 10px;
 	padding: 2rem;
 	position: relative;
@@ -15,8 +15,8 @@ article.card .bookmark {
 	position: absolute;
 	top: -6px;
 	right: 20px;
-	background-color: #E1EFE6;
-	border-radius: 5px;
+	background-color: var(--green-lighter);
+	border-radius: var(--border-radius-small);
 }
 article.card h2 {
 	font-size: 2rem;
@@ -25,7 +25,7 @@ article.card .answer {
 	display: none;
 	font-size: 1rem;
 	margin-bottom: 1.5rem;
-	color: #666;
+	color: var(--grey-medium);
 }
 article.card ol {
 	list-style: '#';
@@ -33,13 +33,13 @@ article.card ol {
 	display: flex;
 	padding: 1.5rem 0.5rem 0 0;
 	font-size: 0.9rem;
-	border-top: 1px solid #AEB7B3;
+	border-top: 1px solid var(--green-light);
 	flex-wrap: wrap;
 }
 article.card ol li {
 	margin: 0 0.5rem 0.5rem 0;
-	background-color: #EFCB68;
-	border-radius: 5px;
+	background-color: var(--primary-color-shade);
+	border-radius: var(--border-radius-small);
 	padding: 5px 10px;
 	/* color: #; */
 }
@@ -57,16 +57,16 @@ article.card ol li {
 }
 @media (prefers-color-scheme: dark) {
 	article.card {
-		background-color: #333;
-		color: #E1EFE6;
+		background-color: var(--gray-dark);
+		color: var(--green-lighter);
 	}
 	article.card .bookmark {
-		background-color: #333;
+		background-color: var(--gray-dark);
 	}
 	article.card ol li {
 		background-color: #7c6935;
 	}
 	article.card ol {
-		border-top: 1px solid #666;
+		border-top: 1px solid var(--gray-medium);
 	}
 }

@@ -5,8 +5,8 @@ nav {
 	left: 0;
 	width: 100vw;
 	padding: 8px 0;
-	background-color: #333;
-	filter: drop-shadow(0px 0px 10px #666);
+	background-color: var(--gray-dark);
+	filter: drop-shadow(0px 0px 10px var(--gray-medium));
 }
 nav ul {
 	display: flex;
@@ -20,16 +20,10 @@ nav ul li  {
     background-position: center;
 }
 nav ul li svg path {
-    color: #ccc;
+    color: var(--gray-lighter);
 }
-nav ul li.home.active svg path {
-    color: #fc0;
-}
-nav ul li.bookmark.active svg path {
-    color: #fc0;
-}
-nav ul li.profile.active svg path {
-   color: #fc0;
+nav ul li.home.active svg path, nav ul li.bookmark.active svg path, nav ul li.profile.active svg path {
+    color: var(--primary-color);
 }
 nav ul li a {
 	width: 50px;
@@ -39,11 +33,11 @@ nav ul li a {
 	align-items: center;
 }
 nav ul li a svg {
-	fill: #fc0;
+	fill: var(--primary-color);
 }
 
 @media (prefers-color-scheme: dark) {
 	nav {
-		filter: drop-shadow(0px 0px 10px #333);
+		filter: drop-shadow(0px 0px 10px var(--gray-dark));
 	}
 }
