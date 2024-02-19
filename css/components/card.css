@@ -15,8 +15,14 @@ article.card .bookmark {
 	position: absolute;
 	top: -6px;
 	right: 20px;
-	background-color: var(--green-lighter);
-	border-radius: var(--border-radius-small);
+	width: 20px;
+	height: 30px;
+    background: var(--green-lighter) url("../../images/icon-bookmark.svg") no-repeat;
+	border-radius: var(--border-radius-tiny);
+	cursor: pointer;
+}
+article.card .bookmark.inactive {
+    background: var(--gray-dark) url("../../images/icon-bookmark-inactive.svg") no-repeat;
 }
 article.card h2 {
 	font-size: 2rem;

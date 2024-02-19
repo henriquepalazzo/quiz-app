@@ -11,5 +11,6 @@
     --gray-light: #999;
     --gray-lighter: #ccc;
     
+    --border-radius-tiny: 2.5px;
     --border-radius-small: 5px;
 }
