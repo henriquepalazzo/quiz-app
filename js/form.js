@@ -1,4 +1,17 @@
 const form = document.querySelector("form")
+const inputQuestion = document.querySelector("#question")
+const inputAnswer = document.querySelector("#answer")
+const counterQuestion = document.querySelector(".question.characters_counting")
+const counterAnswer = document.querySelector(".answer.characters_counting")
+
+counterQuestion.querySelector("span").textContent = 130 - inputQuestion.value.length
+inputQuestion.addEventListener("input", (event) => {
+    counterQuestion.querySelector("span").textContent = 130 - event.target.value.length
+})
+counterAnswer.querySelector("span").textContent = 130 - inputAnswer.value.length
+inputAnswer.addEventListener("input", (event) => {
+    counterAnswer.querySelector("span").textContent = 130 - event.target.value.length
+})
 
 form.addEventListener("submit", (event) => {
     event.preventDefault()

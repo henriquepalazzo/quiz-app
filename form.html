@@ -16,9 +16,11 @@
     <main class="form">
         <form action="GET">
             <label for="question">Your question</label>
-            <textarea name="question" id="question" cols="30" rows="5"></textarea>
+            <textarea name="question" id="question" cols="30" rows="5" maxlength="130"></textarea>
+            <div class="question characters_counting"><span>130</span> characters left</div>
             <label for="answer">Your answer</label>
-            <textarea name="answer" id="answer" cols="30" rows="5"></textarea>
+            <textarea name="answer" id="answer" cols="30" rows="5" maxlength="130"></textarea>
+            <div class="answer characters_counting"><span>130</span> characters left</div>
             <label for="tags">Tags</label>
             <input type="text" name="tags" id="tags">
             <input type="submit" value="Create question">
