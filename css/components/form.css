@@ -27,6 +27,7 @@ input[type=submit] {
     font-weight: bold;
     color: var(--gray-dark);
     cursor: pointer;
+    margin-top: 2rem;
 }
 .characters_counting {
     align-self: flex-end;
