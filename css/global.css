@@ -17,14 +17,10 @@ body {
 	padding: 2rem;
 	font-family: "Lato", sans-serif;
 }
-
+body.dark {
+	background-color: #5f5f5f;
+	color: #e5e5e5;
+}
 p {
 	line-height: 1.4;
-}
-
-@media (prefers-color-scheme: dark) {
-	body {
-		background-color: #5f5f5f;
-		color: #e5e5e5;
-	}
 }
