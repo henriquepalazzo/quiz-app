@@ -9,7 +9,7 @@ form {
 }
 input, textarea {
     resize: none;
-    background-color: var(--green-light);
+    background-color: var(--green-lighter);
     border: 1px solid var(--gray-dark);
     border-radius: var(--border-radius-small);
     line-height: 2rem;
