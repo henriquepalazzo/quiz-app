@@ -13,32 +13,16 @@
     <header class="main">
         <h1><span class="first">Z</span> Quiz <span class="last">💣</span></h1>
     </header>
-    <main class="profile">
-        <article>
-            <header>
-                <img src="https://source.unsplash.com/random/200×200/?person,profile" alt="Profile picture">
-                <h2>Florian Witgreint</h2>
-            </header>
-            <section class="about">
-                <h3>About me</h3>
-                <p>Lorem ipsum dolor sit amet consectetur lam fugiat qui aliquid nulla dolor fugit, dicta harum adila nam repellendus fugiat dicta, pariatur explicabo quasi sed debitis incidunt, ut est corporis commodi.</p>
-            </section>
-            <section class="stats">
-                <div class="stats__contents">13</div>
-                <div class="stats__bookmarks">21</div>
-            </section>
-            <section class="settings">
-                <h3>Settings</h3>
-                <div class="settings__item settings__theme">
-                    <span class="label">Dark mode</span>
-                    <!-- Component copied from W3C website https://www.w3schools.com/howto/howto_css_switch.asp -->
-                    <label class="switch">
-                        <input type="checkbox">
-                        <span class="slider round"></span>
-                    </label>
-                </div>
-            </section>
-        </article>
+    <main>
+        <form action="GET">
+            <label for="question">Your question</label>
+            <textarea name="question" id="question" cols="30" rows="5"></textarea>
+            <label for="answer">Your answer</label>
+            <textarea name="answer" id="answer" cols="30" rows="5"></textarea>
+            <label for="tags">Tags</label>
+            <input type="text" name="tags" id="tags">
+            <input type="submit" value="Create question">
+        </form>
     </main>
     <nav>
         <ul>
@@ -52,17 +36,18 @@
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" width="23px"><path d="M0 48V487.7C0 501.1 10.9 512 24.3 512c5 0 9.9-1.5 14-4.4L192 400 345.7 507.6c4.1 2.9 9 4.4 14 4.4c13.4 0 24.3-10.9 24.3-24.3V48c0-26.5-21.5-48-48-48H48C21.5 0 0 21.5 0 48z" fill="currentColor"/></svg>
                 </a>
             </li>
-            <li class="add">
+            <li class="add active">
                 <a href="form.html" aria-label="Link to add a new question.">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="30px"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM232 344V280H168c-13.3 0-24-10.7-24-24s10.7-24 24-24h64V168c0-13.3 10.7-24 24-24s24 10.7 24 24v64h64c13.3 0 24 10.7 24 24s-10.7 24-24 24H280v64c0 13.3-10.7 24-24 24s-24-10.7-24-24z" fill="currentColor"/></svg>
                 </a>
             </li>
-            <li class="profile active">
+            <li class="profile">
                 <a href="profile.html" aria-label="Link to the profile page.">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="27px"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z" fill="currentColor"/></svg>
                 </a>
             </li>
         </ul>
     </nav>
+    <script src="./js/index.js"></script>
 </body>
 </html>

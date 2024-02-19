@@ -1,0 +1,25 @@
+form {
+    display: flex;
+    flex-direction: column;
+}
+input, textarea {
+    resize: none;
+    margin-bottom: 2rem;
+    background-color: var(--green-light);
+    border: 1px solid var(--gray-dark);
+    border-radius: var(--border-radius-small);
+    line-height: 2rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
+label {
+    margin-bottom: 1rem;
+}
+input[type=submit] {
+    border: none;
+    background-color: var(--primary-color);
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--gray-dark);
+    cursor: pointer;
+}

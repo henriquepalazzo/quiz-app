@@ -22,7 +22,7 @@ nav ul li  {
 nav ul li svg path {
     color: var(--gray-lighter);
 }
-nav ul li.home.active svg path, nav ul li.bookmark.active svg path, nav ul li.profile.active svg path {
+nav ul li.home.active svg path, nav ul li.bookmark.active svg path, nav ul li.profile.active svg path, nav ul li.add.active svg path {
     color: var(--primary-color);
 }
 nav ul li a {
