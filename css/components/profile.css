@@ -1,18 +1,18 @@
 @import url(./slider.css);
 
-main.profile {
+#profile {
   max-width: 500px;
 }
-main.profile article header {
+#profile article header {
   display: flex;
   align-items: center;
   padding-bottom: 2rem;
 }
-main.profile article header h2 {
+#profile article header h2 {
   font-size: 2rem;
   line-height: 1.2;
 }
-main.profile article header img {
+#profile article header img {
   width: 130px;
   aspect-ratio: 1;
   object-fit: cover;

@@ -24,3 +24,11 @@ body.dark {
 p {
   line-height: 1.4;
 }
+
+.page {
+  display: none;
+}
+
+.page.current {
+  display: block;
+}
