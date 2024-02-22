@@ -1,5 +1,5 @@
-const button = document.querySelectorAll("button")
-const bookmark = document.querySelectorAll(".bookmark")
+const button = document.querySelectorAll("button");
+const bookmark = document.querySelectorAll(".bookmark");
 
 button.forEach((element)=>{
     element.addEventListener("click", (event) => {
@@ -9,8 +9,8 @@ button.forEach((element)=>{
     })
 })
 
-bookmark.forEach((element)=>{
-    element.addEventListener("click", (event) => {
-        event.target.classList.toggle("inactive")
-    })
-})
+bookmark.forEach((element) => {
+  element.addEventListener("click", (event) => {
+    event.target.classList.toggle("inactive");
+  });
+});

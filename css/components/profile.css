@@ -1,54 +1,56 @@
 @import url(./slider.css);
 
 main.profile {
-    max-width: 500px;
+  max-width: 500px;
 }
 main.profile article header {
-    display: flex;
-    align-items: center;
-    padding-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  padding-bottom: 2rem;
 }
 main.profile article header h2 {
-    font-size: 2rem;
-    line-height: 1.2;
+  font-size: 2rem;
+  line-height: 1.2;
 }
 main.profile article header img {
-    width: 130px;
-    aspect-ratio: 1;
-    object-fit: cover;
-    border-radius: 50%;
-    border: solid 5px #cfd7d3;
-    margin-right: 2rem;
+  width: 130px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 50%;
+  border: solid 5px #cfd7d3;
+  margin-right: 2rem;
 }
 section.about {
-    padding: 2rem 0;
+  padding: 2rem 0;
 }
 section.stats {
-    padding: 2rem 3rem;
-    display: flex;
-    justify-content: space-between;
-    font-weight: bold;
-    color: var(--gray-medium);
+  padding: 2rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  color: var(--gray-medium);
 }
 section.stats > div {
-    border-radius: var(--border-radius-small);
-    padding: 10px 20px;
-    padding-left: 3rem;
-    display: inline;
+  border-radius: var(--border-radius-small);
+  padding: 10px 20px;
+  padding-left: 3rem;
+  display: inline;
 }
 section.stats .stats__contents {
-    background: var(--green-lighter) url("../../images/icon-question.svg") no-repeat 15px 11px;
+  background: var(--green-lighter) url("../../images/icon-question.svg")
+    no-repeat 15px 11px;
 }
 section.stats .stats__bookmarks {
-    background: var(--green-lighter) url("../../images/icon-bookmark.svg") no-repeat 18px 11px;
-    background-size: 14px;
+  background: var(--green-lighter) url("../../images/icon-bookmark.svg")
+    no-repeat 18px 11px;
+  background-size: 14px;
 }
 section.settings {
-    padding: 2rem 0 0;
+  padding: 2rem 0 0;
 }
 section.settings .settings__item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
 }

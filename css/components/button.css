@@ -1,15 +1,15 @@
 article.card button {
-	background-color: var(--purple-dark);
-	color: var(--green-lighter);
-	border: none;
-	font-size: 1.2rem;
-	margin: 2rem 0;
-	border-radius: var(--border-radius-small);
-	padding: 7px 15px;
-	cursor: pointer;
-	border: 3px solid var(--purple-light);
-	transition: all 1s;
+  background-color: var(--purple-dark);
+  color: var(--green-lighter);
+  border: none;
+  font-size: 1.2rem;
+  margin: 2rem 0;
+  border-radius: var(--border-radius-small);
+  padding: 7px 15px;
+  cursor: pointer;
+  border: 3px solid var(--purple-light);
+  transition: all 1s;
 }
 article.card button:hover {
-	background-color: var(--purple-darker);
+  background-color: var(--purple-darker);
 }
